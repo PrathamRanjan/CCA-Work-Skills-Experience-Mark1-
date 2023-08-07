@@ -1,9 +1,5 @@
-
-spacy==3.6.0=
-spacy-legacy==3.0.12
-spacy-loggers==1.0.4
 streamlit===1.25.0
-streamlit-chat==0.1.1=
+spacy==3.6.0
 
 
 
