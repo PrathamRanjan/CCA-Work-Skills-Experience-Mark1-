@@ -1,9 +1,10 @@
 import spacy
+nlp = spacy.load('en_core_web_sm')
+
 import streamlit as st
 from spacy.matcher import Matcher
 
 # Load the 'en_core_web_sm' model
-nlp = spacy.load('en_core_web_sm')
 
 # Scoring dictionary
 entity_scores = {
